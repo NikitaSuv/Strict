@@ -1,0 +1,29 @@
+&.button {
+	user-select: none;
+	cursor: pointer;
+	background: none;
+	border: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	@include general-transition;
+
+	&.style {
+		line-height: 1em;
+		font-family: Lato;
+		text-align: center;
+		font-size: 20px;
+		padding: 20px 28px;
+
+		&.size {
+			vertical-align: middle;
+			padding: 16px 50px;
+			margin-left: 240px;			
+		}
+
+		&.color {
+			background-color: #15a4fa;
+			color: #ffffff;
+		}
+	}
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+   &.subscribe {                  
+        .white-popup {
+            position: relative;
+            background: #FFF;
+            padding: 20px;
+            width: auto;
+            max-width: 500px;
+            margin: 20px auto;
+        }
+
+        padding-top: 81px;
+        display: block;
+        max-width: 100%;
+        height: auto;
+        background-size: cover;
+        text-transform: none;
+        background-position: center;
+        .section-form {
+            max-width: 550px;
+            margin: 0 auto;
+            padding-top: 52px;
+            padding-bottom: 52px;
+            input, label{
+                display: inline-block;
+                vertical-align: baseline;
+              }
+              
+              .top input, .top label{
+                vertical-align: middle;
+              
+              }          
+            label {                               
+                font-family: Lato;
+                font-size: 13px;
+                color: #ffffff;
+                margin: 10px;
+            }
+            input.box {
+                
+                width: 15px;
+                height: 15px;
+                background-color: rgba(246, 249, 249, 0.54);
+                border: 1.0px solid #9aa1ab;          
+               
+            }
+
+            textarea::-webkit-input-placeholder {
+                font-family: Lato;
+                font-size: 15px;
+                color: #ffffff;
+            }
+
+
+
+            textarea {
+                max-width: 100%;
+                height: 150px;
+                border: 1.0px solid #999999;
+                background-color: transparent;
+                padding-left: 20px;
+                padding-top: 25px;
+
+                &:hover {
+                    border: 1.0px solid #ffffff;
+                }
+
+            }
+
+            input::-webkit-input-placeholder {
+                font-family: Lato;
+                font-size: 15px;
+                color: #ffffff;
+            }
+
+
+
+            input {
+                max-width: 100%;
+                height: 60px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                border: 1.0px solid #999999;
+                background-color: transparent;
+                padding-left: 20px;
+                padding-bottom: 25px;
+                padding-top: 25px;
+                @include general-transition;
+
+                &:hover {
+                    border: 1.0px solid #ffffff;
+                }
+            }
+        }
+
+
+        .section-title {
+
+            text-align: center;
+
+            .subtitle {
+                padding-top: 21px;
+                font-family: Lato;
+                font-size: 15px;
+                line-height: 23px;
+                color: #999999;
+            }
+
+            .title {
+                font-family: Lato;
+                font-size: 41px;
+                line-height: 1.2;
+                color: #ffffff;
+            }
+        }
+
+    }

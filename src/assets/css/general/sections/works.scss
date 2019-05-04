@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+    &.works {       
+        padding-bottom: 81px;
+        padding-top: 81px;
+        background-color: #f6f9f9;
+        .section-hero {
+            text-align: center;
+            .item {                
+                padding-bottom: 20px;
+                padding-top: 30px;
+                img {
+                    opacity: 0.5;
+                    max-width: 100%;
+                    height: auto;
+                    @include general-transition;
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+
+            .subtitle {
+                padding-bottom: 50px;
+                padding-top: 22px;
+                font-family: Lato;
+                font-size: 15px;
+                line-height: 23px;
+                color: #909090;
+            }
+
+            .title {
+                font-family: Lato;
+                font-size: 41px;
+                line-height: 1.2;
+                color: #2d3950;
+            }
+        }
+    }

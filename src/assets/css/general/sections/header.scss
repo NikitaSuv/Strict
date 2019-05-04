@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+    &.header {
+        background-color: #f6f9f9;
+
+        .section-line-top {
+            padding-top: 40px;
+            padding-bottom: 40px;
+
+            .logo {
+                display: flex;
+                align-items: center;
+                margin-left: 253px;
+
+                .text {
+                    margin-left: 16px;
+                    font-family: Lato;
+                    font-size: 30px;
+                    line-height: 20px;
+                    color: #2d3950;
+                }
+
+            }
+        }
+    }

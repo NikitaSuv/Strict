@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+    &.content {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        background-size: cover;
+        text-transform: none;
+        background-position: center;
+
+        .section-control {
+            padding-top: 179px;
+            text-align: center;
+            padding-bottom: 90px;
+        }
+
+        .section-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 65px;
+        }
+
+        .section-title {
+            text-align: center;
+
+            .subtitle {
+                padding-top: 20px;
+                font-family: Lato;
+                font-size: 20px;
+                line-height: 47px;
+                color: #ffffff;
+
+            }
+
+            .title {
+                padding-top: 217px;
+                font-family: Lato;
+                font-size: 140px;
+                line-height: 47px;
+                border-bottom: 2px solid #15a4fa;
+                font-weight: normal;
+                padding-bottom: 68px;
+
+                a {
+                    text-decoration: none;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
